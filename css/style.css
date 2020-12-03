@@ -52,3 +52,13 @@ color: white; border: none; border-color: #17a2b8; border-radius: 5px; line-heig
 .content03a p, .content03b p, .content03c p {font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;
 text-align: left; margin-bottom: 1rem;}
 .content03a, .content03b {margin-right: 25px;}
+/*==========FOOTER==========*/
+.footer {display: flex; justify-content: space-between; align-items: center; padding: 0 7.5em; margin-bottom: 25px;
+margin-left: 15px;}
+.menu-footer {display: flex;}
+.menu-footer li + li {margin-left: 35px;}
+.menu-footer li a {color: #007bff;}
+.menu-footer li a:hover {text-decoration: underline;}
+.icones-footer i {border: 1px solid #343a40; padding: 12px; border-radius: 5px; color: #343a40;}
+.icones-footer a + a {margin-left: 5px;}
+.icones-footer i:hover {background: #343a40; color: white;}
