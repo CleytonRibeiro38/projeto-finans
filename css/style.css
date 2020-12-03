@@ -16,7 +16,7 @@
 .menu li a {font-size: 1rem; font-weight: 400; line-height: 1.5; color: rgba(0,0,0,.5);}
 .menu li a:hover {color: #212529;}
 .menu li:nth-child(4) {margin-right: 35px;}
-button {padding: 0.5em; border: 1px solid white; border-radius: 5px; background: #ffc107; font-size: 1rem;
+.menu button {padding: 0.5em; border: 1px solid white; border-radius: 5px; background: #ffc107; font-size: 1rem;
 color: white;}
 button:hover {background: white; color: #212529; cursor: pointer; transition: .15s ease-in-out;}
 .header02 {display: flex;}
@@ -32,3 +32,23 @@ input[type="submit"]:hover {background: #007bff; cursor: pointer; transition: .1
 .icones-header p {margin-right: 5px; margin-top: 17px;}
 .icones-header i {border: 1px solid white; padding: 10px 12px; margin-right: 5px; color: white; border-radius: 5px;}
 .icones-header i:hover {background: white; color: #212529; cursor: pointer; transition: .15s ease-in-out;}
+/*==========CONTENT==========*/
+.content {padding: 4em 7.5em;}
+.content01, .content02, .content03 {display: flex; justify-content: space-between; border-bottom: 1px solid #e5e5e5;}
+.content01 img, .content02 img {margin-bottom: 60px;}
+.content01, .content02 {margin-bottom: 60px;}
+.content03 {margin-bottom: -40px;}
+.content03a {margin-bottom: 60px;}
+.content01a, .content02a {align-self: center;}
+.content01a h2, .content02a h2 {font-size: 2rem; margin-bottom: .5rem; font-family: inherit; font-weight: 500;line-height: 1.2; color: inherit;}
+.content01a p, .content02a p {font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; text-align: left;
+margin-bottom: 1rem;}
+.content01a {margin-right: 50px;}
+.content02a {margin-left: 80px;}
+.content01a button, .content02 button {width: 100px; padding: .375rem .75rem; font-size: 1rem; background: #17a2b8; 
+color: white; border: none; border-color: #17a2b8; border-radius: 5px; line-height: 1.5;}
+.content01a button:hover, .content02 button:hover {background: #007bff; cursor: pointer; transition: .15s ease-in-out;}
+.content03a h4, .content03b h4, .content03c h4 {font-size: 1.5rem; margin-bottom: .5rem; font-family: inherit;font-weight: 500; line-height: 1.2; color: inherit;}
+.content03a p, .content03b p, .content03c p {font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;
+text-align: left; margin-bottom: 1rem;}
+.content03a, .content03b {margin-right: 25px;}
