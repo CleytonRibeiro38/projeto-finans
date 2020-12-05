@@ -16,8 +16,7 @@
 .menu li a {font-size: 1rem; font-weight: 400; line-height: 1.5; color: rgba(0,0,0,.5);}
 .menu li a:hover {color: #212529;}
 .menu li:nth-child(4) {margin-right: 35px;}
-.menu button {padding: 0.5em; border: 1px solid white; border-radius: 5px; background: #ffc107; font-size: 1rem;
-color: white;}
+button {padding: .375rem .75rem; line-height: 1.5; border: 1px solid white; border-radius: 5px; background: #ffc107; font-size: 1rem; color: white;}
 button:hover {background: white; color: #212529; cursor: pointer; transition: .15s ease-in-out;}
 .header02 {display: flex;}
 .header02 h1 {margin-top: 98px; margin-bottom: 8px; font-size: 3.5rem; font-weight: 300; line-height: 1.2; color: white;}
@@ -32,6 +31,16 @@ input[type="submit"]:hover {background: #007bff; cursor: pointer; transition: .1
 .icones-header p {margin-right: 5px; margin-top: 17px;}
 .icones-header i {border: 1px solid white; padding: 10px 12px; margin-right: 5px; color: white; border-radius: 5px;}
 .icones-header i:hover {background: white; color: #212529; cursor: pointer; transition: .15s ease-in-out;}
+@media screen and (max-width: 600px){
+    .headers {padding: 10px 5px 0;}
+    .header {flex-direction: column;}
+    .menu {flex-direction: column;}
+    .menu button {margin-top: 20px;}
+    .header02 {flex-direction: column;}
+    .header02 h1 {font-size: 2.9rem; margin-top: 10px;}
+    .header02 img {margin-left: 5px;}
+    input[type="email"] {width: 100%;}
+}
 /*==========CONTENT==========*/
 .content {padding: 4em 7.5em;}
 .content01, .content02, .content03 {display: flex; justify-content: space-between; border-bottom: 1px solid #e5e5e5;}
@@ -52,6 +61,16 @@ color: white; border: none; border-color: #17a2b8; border-radius: 5px; line-heig
 .content03a p, .content03b p, .content03c p {font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529;
 text-align: left; margin-bottom: 1rem;}
 .content03a, .content03b {margin-right: 25px;}
+@media screen and (max-width: 600px){
+    .content {padding: 10px 5px 0;}
+    .content01, .content02, .content03 {flex-direction: column;}
+    .content01 button, .content02 button {margin-bottom: 25px;}
+    .content01a {margin-right: 5px;}
+    .content02a {margin-left: 5px;}
+    .content03a img {width: 310px;}
+    .content03a, .content03b {margin-right: 0;}
+    .content03a img, .content03b img, .content03c img {display: block; margin: 0 auto;}
+}
 /*==========FOOTER==========*/
 .footer {display: flex; justify-content: space-between; align-items: center; padding: 0 7.5em; margin-bottom: 25px;
 margin-left: 15px;}
@@ -62,3 +81,14 @@ margin-left: 15px;}
 .icones-footer i {border: 1px solid #343a40; padding: 12px; border-radius: 5px; color: #343a40;}
 .icones-footer a + a {margin-left: 5px;}
 .icones-footer i:hover {background: #343a40; color: white;}
+@media screen and (max-width: 600px){
+    .footer{
+        margin: 60px 0;
+        padding: 10px 5px 0;
+        flex-direction: column;
+    }
+    .menu-footer{
+        margin-bottom: 30px;
+    }
+    .menu-footer li + li {margin-left: 15px;}
+}
